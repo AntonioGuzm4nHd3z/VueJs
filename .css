@@ -1,0 +1,23 @@
+/* Estilos CSS para las animaciones */
+.sidebar {
+    width: 0;
+    overflow: hidden;
+    transition: 0.3s; /* Transición suave */
+    background-color: #333;
+    color: white;
+  }
+  
+  .sidebar.open {
+    width: 250px; /* Ancho del menú cuando está abierto */
+  }
+  
+  /* Estilos CSS para el contenido */
+  .content {
+    transition: margin-left 0.3s; /* Transición para el contenido al moverse con el menú */
+    margin-left: 0;
+  }
+  
+  .content.open {
+    margin-left: 250px; /* Mismo ancho que el menú */
+  }
+  
